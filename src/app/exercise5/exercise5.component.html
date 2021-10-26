@@ -1,0 +1,11 @@
+
+    <input type="text" [(ngModel)] ="filterResults">
+
+    <ul>
+    <li
+    *ngFor= "let pet of petThoughts | filterPets:filterResults" ></li>
+
+
+    </ul>
+
+
